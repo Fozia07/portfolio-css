@@ -1,0 +1,30 @@
+.about-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color:rgb(44, 42, 42);
+    max-width: 1500px;
+    height: auto;
+    margin:auto;
+    
+}
+.image2{
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+.about-left{
+    margin-top:30px;
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+
+
+@media(min-width:768px){
+   .about-div {grid-template-columns: 2fr 2fr};
+}
+
+
+    
+

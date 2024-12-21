@@ -1,0 +1,23 @@
+.link{
+    color:rgb(236, 137, 137) ;
+    text-decoration: none;
+    
+
+}
+
+.link:hover{
+    color:  #00bcd4;
+}
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+    
+}
+.main{
+    height:8px;
+    padding: 20px ;
+    background-color:rgb(44, 42, 42) ;
+    
+}
